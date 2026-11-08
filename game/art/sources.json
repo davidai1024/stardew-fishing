@@ -1,0 +1,1028 @@
+{
+  "art": "Stardew Valley / ConcernedApe",
+  "sheets": "https://www.spriters-resource.com/pc_computer/stardewvalley/",
+  "font": "Fusion Pixel, OFL 1.1",
+  "fontLicense": "Fusion Pixel Font\nhttps://github.com/TakWolf/fusion-pixel-font\n\nCopyright (c) 2022, TakWolf (https://takwolf.com).\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is copied below, and is also available with a FAQ at:\nhttps://openfontlicense.org\n\n\n-----------------------------------------------------------\nSIL OPEN FONT LICENSE Version 1.1 - 26 February 2007\n-----------------------------------------------------------\n\nPREAMBLE\nThe goals of the Open Font License (OFL) are to stimulate worldwide\ndevelopment of collaborative font projects, to support the font creation\nefforts of academic and linguistic communities, and to provide a free and\nopen framework in which fonts may be shared and improved in partnership\nwith others.\n\nThe OFL allows the licensed fonts to be used, studied, modified and\nredistributed freely as long as they are not sold by themselves. The\nfonts, including any derivative works, can be bundled, embedded,\nredistributed and/or sold with any software provided that any reserved\nnames are not used by derivative works. The fonts and derivatives,\nhowever, cannot be released under any other type of license. The\nrequirement for fonts to remain under this license does not apply\nto any document created using the fonts or their derivatives.\n\nDEFINITIONS\n\"Font Software\" refers to the set of files released by the Copyright\nHolder(s) under this license and clearly marked as such. This may\ninclude source files, build scripts and documentation.\n\n\"Reserved Font Name\" refers to any names specified as such after the\ncopyright statement(s).\n\n\"Original Version\" refers to the collection of Font Software components as\ndistributed by the Copyright Holder(s).\n\n\"Modified Version\" refers to any derivative made by adding to, deleting,\nor substituting -- in part or in whole -- any of the components of the\nOriginal Version, by changing formats or by porting the Font Software to a\nnew environment.\n\n\"Author\" refers to any designer, engineer, programmer, technical\nwriter or other person who contributed to the Font Software.\n\nPERMISSION & CONDITIONS\nPermission is hereby granted, free of charge, to any person obtaining\na copy of the Font Software, to use, study, copy, merge, embed, modify,\nredistribute, and sell modified and unmodified copies of the Font\nSoftware, subject to the following conditions:\n\n1) Neither the Font Software nor any of its individual components,\nin Original or Modified Versions, may be sold by itself.\n\n2) Original or Modified Versions of the Font Software may be bundled,\nredistributed and/or sold with any software, provided that each copy\ncontains the above copyright notice and this license. These can be\nincluded either as stand-alone text files, human-readable headers or\nin the appropriate machine-readable metadata fields within text or\nbinary files as long as those fields can be easily viewed by the user.\n\n3) No Modified Version of the Font Software may use the Reserved Font\nName(s) unless explicit written permission is granted by the corresponding\nCopyright Holder. This restriction only applies to the primary font name as\npresented to the users.\n\n4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font\nSoftware shall not be used to promote, endorse or advertise any\nModified Version, except to acknowledge the contribution(s) of the\nCopyright Holder(s) and the Author(s) or with their explicit written\npermission.\n\n5) The Font Software, modified or unmodified, in part or in whole,\nmust be distributed entirely under this license, and must not be\ndistributed under any other license. The requirement for fonts to\nremain under this license does not apply to any document created\nusing the Font Software.\n\nTERMINATION\nThis license becomes null and void if any of the above conditions are\nnot met.\n\nDISCLAIMER\nTHE FONT SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nOF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE\nCOPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,\nINCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n",
+  "rendering": "Literal original TMX tile windows, unchanged source tile IDs and coordinates; 16px native terrain scaled 2x; nearest-neighbor phone camera crop. Chinese title and touch UI adapted to mobile.",
+  "assetCount": 62,
+  "assets": [
+    {
+      "file": "121872.png",
+      "source": "https://www.spriters-resource.com/pc_computer/stardewvalley/asset/121872/",
+      "sha256": "987ee20222c38e6c215c5e94a2e601e136d90acd9da197f18dd77d5ab91b32ea"
+    },
+    {
+      "file": "153612.png",
+      "source": "https://www.spriters-resource.com/pc_computer/stardewvalley/asset/153612/",
+      "sha256": "9c364f76007c8d79921c854715c9538696c1ac1fdf7c1c101ffc6b4789d7ce2b"
+    },
+    {
+      "file": "153614.png",
+      "source": "https://www.spriters-resource.com/pc_computer/stardewvalley/asset/153614/",
+      "sha256": "e5239face1ceb39f4de27472d4c998429408776b086c2651851a5b7c3185bd19"
+    },
+    {
+      "file": "197484.png",
+      "source": "https://www.spriters-resource.com/pc_computer/stardewvalley/asset/197484/",
+      "sha256": "ddae69026dcc139c9ddd30d8aa8054b9e3b4099d4f0fdeabf82d8f24b2ed8256"
+    },
+    {
+      "file": "223916.png",
+      "source": "https://www.spriters-resource.com/pc_computer/stardewvalley/asset/223916/",
+      "sha256": "7d4c3f3bbf5643ec79bb668ece903f4ad21b7fcbe1ec39fe0a60ee337c6732a0"
+    },
+    {
+      "file": "223939.png",
+      "source": "https://www.spriters-resource.com/pc_computer/stardewvalley/asset/223939/",
+      "sha256": "c1a0827a8824e474cefe2576785faeea7a08b63dd11d4e293a666a8a4af3de3e"
+    },
+    {
+      "file": "224015.png",
+      "source": "https://www.spriters-resource.com/pc_computer/stardewvalley/asset/224015/",
+      "sha256": "1fbfc854b37a145a4ed72021cf100a3187334384ec0ad32c98faef2aca108685"
+    },
+    {
+      "file": "224017.png",
+      "source": "https://www.spriters-resource.com/pc_computer/stardewvalley/asset/224017/",
+      "sha256": "d4c93c393c181fd26d186ed7778ee5249e802fb7a154d2f5337f24bad6645f77"
+    },
+    {
+      "file": "224018.png",
+      "source": "https://www.spriters-resource.com/pc_computer/stardewvalley/asset/224018/",
+      "sha256": "b75730a49bd59224b35caad8011a9511db2464e28ee9bf08044c45e249ce76b4"
+    },
+    {
+      "file": "224020.png",
+      "source": "https://www.spriters-resource.com/pc_computer/stardewvalley/asset/224020/",
+      "sha256": "de04f93d1fa8bba02dafc4c6386965d1d61dd0eb38b0b7f3a0644aa6fab940ed"
+    },
+    {
+      "file": "81155.png",
+      "source": "https://www.spriters-resource.com/pc_computer/stardewvalley/asset/81155/",
+      "sha256": "f0a0167a3af904bea73d07dd6519d6e05be69108ba1f897939cd466986d0fc5a"
+    },
+    {
+      "file": "88593.png",
+      "source": "https://www.spriters-resource.com/pc_computer/stardewvalley/asset/88593/",
+      "sha256": "59834389a3d2c83fda25b08eb3a40bf3d341865d15d0bf3fd21dd053fdf8defe"
+    },
+    {
+      "file": "88656.png",
+      "source": "https://www.spriters-resource.com/pc_computer/stardewvalley/asset/88656/",
+      "sha256": "7672bb0c688a97b53859ce8a0b1ef73c6a3b062b9a43638aa19c5190d55d8733"
+    },
+    {
+      "file": "Cave_Jelly.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/en/0/0a/Cave_Jelly.png",
+      "sha256": "2756afdb650bac90a632760574ae78eb05931061f1a71b6de7b8361b2dcfce9c"
+    },
+    {
+      "file": "Challenge_Bait.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/en/9/96/Challenge_Bait.png",
+      "sha256": "222cc4a67e091457c5702a0bce2c14de78cf5652839a4d5a6041c1a77067ac94"
+    },
+    {
+      "file": "Deluxe_Bait.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/en/4/43/Deluxe_Bait.png",
+      "sha256": "43c92ec6a6f3d9bec67b5eaf82f02a4ff9c1aeb3477b53299333ada43a0d03cf"
+    },
+    {
+      "file": "Goby.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/en/6/67/Goby.png",
+      "sha256": "926cdbd85b9507aac3a1b2d2f96dcdb1eab7446596693413ba55bde8fc424e42"
+    },
+    {
+      "file": "River_Jelly.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/en/8/80/River_Jelly.png",
+      "sha256": "3ca7bebc42b6ee5620a2eadd520f28588001520c4e832fab6a2dfe45113c26dd"
+    },
+    {
+      "file": "Sea_Jelly.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/en/d/d5/Sea_Jelly.png",
+      "sha256": "bf7718cc8f70c445f2807956c96d370fee2560cd3e8472ad31e4be9b1273716d"
+    },
+    {
+      "file": "Sonar_Bobber.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/en/3/33/Sonar_Bobber.png",
+      "sha256": "ee7e65f93b168f8c857aab2211b3ff9d0cc2626df190b920dc30dfac549afa87"
+    },
+    {
+      "file": "n-Clouds.png",
+      "source": "https://www.spriters-resource.com/pc_computer/stardewvalley/asset/169055/",
+      "sourceSha256": "2de729ae367b8afdb54c1845d136b7257265f1065d793e7461d174d4c9d81acc",
+      "losslessPixels": true,
+      "rgbaSha256": "6ec7c5f71fdccb3846d452c300598cc6eb362f64f3adf58a6e628ad4c8846aeb",
+      "width": 512,
+      "height": 1002,
+      "sha256": "173cf92ea15f33fe4b0aebb0575d798507fbdca80eae5f9dd5db6dfdf893c548"
+    },
+    {
+      "file": "n-Cursors.png",
+      "source": "https://raw.githubusercontent.com/Regnander/stardew-valley-swedish/1.6.8/assets/LooseSprites/Cursors.png",
+      "usedRegions": "Non-text original water animation, fishing bar, fish/chest icons, bite marker and title background only.",
+      "sourceSha256": "a1b122beed52fcdaa06d82635e913149750a6c0ca8caccd48070e1b790b49fe8",
+      "losslessPixels": true,
+      "rgbaSha256": "9053ec1d478f9caa95ae7101c74057610ac97a7a8db7e5ac1f5712969b78f55c",
+      "width": 704,
+      "height": 2256,
+      "sha256": "e571d137acb12f8ffe83403a6f9714bbc9d795509070f2f0c20cf6b41c86fc1b"
+    },
+    {
+      "file": "n-DesertTiles.png",
+      "source": "https://stardewmapeditor.kya.app.br/stardew-vanilla/DesertTiles.png",
+      "sourceSha256": "3bb1f03c36805217c7c26d2adce244615d85217d503bb182bb74b50b29e16d56",
+      "losslessPixels": true,
+      "rgbaSha256": "a7e04c5c4eb777db8890596881f21069590f67018288d2235ae42ad9c5998df7",
+      "width": 256,
+      "height": 368,
+      "sha256": "8f2fb915606a877e6411cc89e5da7c839971c624babc243fc420a559ac416688"
+    },
+    {
+      "file": "n-DesertTiles_Extended.png",
+      "source": "https://stardewmapeditor.kya.app.br/stardew-vanilla/DesertTiles_Extended.png",
+      "sourceSha256": "a8528fa4b7b0ede50a6d5675ac8c3bc14f4623aed12d4b2fbaa08a77faa72d83",
+      "losslessPixels": true,
+      "rgbaSha256": "6961f0943a5a50da0ed3957b18f4cb6a85a19e7d42ea68d2fa5c486a008d8230",
+      "width": 48,
+      "height": 176,
+      "sha256": "6838abda166f7d903a4897bcee95983143e7c5cc8fd6a79c9f80c5e95951ac02"
+    },
+    {
+      "file": "n-Furniture.png",
+      "source": "https://raw.githubusercontent.com/Regnander/stardew-valley-swedish/1.6.8/assets/TileSheets/furniture.png",
+      "usedRegions": "Non-text standard-farm starter furnishings only; original IDs, default sizes and placements.",
+      "sourceSha256": "4db4e1a173a48ca7b106578c9cbe551caee50111c7bbad2a0a2fcfb3110ee61b",
+      "losslessPixels": true,
+      "rgbaSha256": "825df1016b22219151dbeebb04ce8d45415b3b5016a89c4a5aec310e030f12dd",
+      "width": 512,
+      "height": 1488,
+      "sha256": "98ffe9207ce9b57deaf8d6472c70b6b0b72a227b562515f50f68c22b106c4acb"
+    },
+    {
+      "file": "n-Mines-mine.png",
+      "source": "https://stardewmapeditor.kya.app.br/stardew-vanilla/Mines/mine.png",
+      "sourceSha256": "c2376bb840d48701578a3e5a33a71d9b2ffb99300f5617ba26555a4e07fa303c",
+      "losslessPixels": true,
+      "rgbaSha256": "b739525f6c60721452636a6f3302048bd50a67f1c47e2bd5cb252591b511fa31",
+      "width": 256,
+      "height": 288,
+      "sha256": "325f92b71c95109098c9634a24d6c75bc10ee1b4a0e891801228cb6f8ae97b7c"
+    },
+    {
+      "file": "n-Mines-mine_frost.png",
+      "source": "https://stardewmapeditor.kya.app.br/stardew-vanilla/Mines/mine_frost.png",
+      "sourceSha256": "e9b18a50d64280defae37798533c00c929d39d76a9456b786fe04a70740ff68c",
+      "losslessPixels": true,
+      "rgbaSha256": "0aab2cce60c4b0da660fd3f8880bccfa6cfae03160f06b3f63aced58ee9e92fb",
+      "width": 256,
+      "height": 288,
+      "sha256": "2829f022efc0ab7d099fc3fdacbc828ea38f5a35a8f9915435c72e8e70b57205"
+    },
+    {
+      "file": "n-Mines-mine_lava.png",
+      "source": "https://stardewmapeditor.kya.app.br/stardew-vanilla/Mines/mine_lava.png",
+      "sourceSha256": "5210f6690288b217cde2c6131d2a5c8d80986962a2b71fefcea20008323cbd08",
+      "losslessPixels": true,
+      "rgbaSha256": "e468d1d63b251d85380950b14eeb5ac16ee06e22ce469ba53a0df027f190a161",
+      "width": 256,
+      "height": 320,
+      "sha256": "0ebbd549d67cd00772df63aedabb89a5d5d98a8dc3d1a435a5779b2d75018ef3"
+    },
+    {
+      "file": "n-Mines-volcano_caldera.png",
+      "source": "https://stardewmapeditor.kya.app.br/stardew-vanilla/Mines/volcano_caldera.png",
+      "sourceSha256": "675ece5850ea5a0777bb88ac07fbfdf96eb2909f97d60409e5c7e7caa4eeb422",
+      "losslessPixels": true,
+      "rgbaSha256": "913427ab082682a4adb99d3ab484156bbce65af30913fd96603b6a35601bc116",
+      "width": 144,
+      "height": 320,
+      "sha256": "242c0f1fc2f28961d696428e319adf7e4ffab01dd2ce10621fb354a77878d802"
+    },
+    {
+      "file": "n-Mines-volcano_dungeon.png",
+      "source": "https://stardewmapeditor.kya.app.br/stardew-vanilla/Mines/volcano_dungeon.png",
+      "sourceSha256": "23837263b437073bc960008a742a6de57a5c58f89f65455a138a9636f4022e97",
+      "losslessPixels": true,
+      "rgbaSha256": "a90edd3f33fbf3c942718e26f2dc46d9c0eb03dea15f2b4264f9af962b8b8c27",
+      "width": 256,
+      "height": 576,
+      "sha256": "d4afb7aba9e127164201315e4fb0941a87e75b4f151541236d336ff0438547b7"
+    },
+    {
+      "file": "n-SewerTiles.png",
+      "source": "https://stardewmapeditor.kya.app.br/stardew-vanilla/SewerTiles.png",
+      "sourceSha256": "7bed94657417b9894d11d92e44942211a59ff37a4158b395280ed8caa949bd00",
+      "losslessPixels": true,
+      "rgbaSha256": "9bed847221826963a9709c4543e5caf830b15f425b7ce70fddfe39aa93cd9991",
+      "width": 128,
+      "height": 176,
+      "sha256": "8aa7cc92fd2e7f2e2a51ab1ec6927a2c741e1da8288a4b25c42a96e6faea5382"
+    },
+    {
+      "file": "n-bugLandTiles.png",
+      "source": "https://stardewmapeditor.kya.app.br/stardew-vanilla/bugLandTiles.png",
+      "sourceSha256": "cf79db2609d3f3355b4cd2202d0f5ee1e3e1da1bcd7afea72f3478431e116be1",
+      "losslessPixels": true,
+      "rgbaSha256": "ee2836cece8aad6f09ffb1f58c6970a4b442d0788559913c4543dbae0354eae5",
+      "width": 128,
+      "height": 224,
+      "sha256": "d632a9ba62e978c340b9b4c9d445331a6754be25f1a970e24285966ac860e79e"
+    },
+    {
+      "file": "n-fall_Shadows.png",
+      "source": "https://stardewmapeditor.kya.app.br/stardew-vanilla/fall_Shadows.png",
+      "sourceSha256": "f4c5e90c11878011daa4dcd9262e6a3edb34d3b0d3e1fe5ba1cf0f8940fa2859",
+      "losslessPixels": true,
+      "rgbaSha256": "e387fc238427a646f6bda826bb9d19324a3a63882a250655ed8ca0ecafae7f32",
+      "width": 304,
+      "height": 400,
+      "sha256": "675278225e239994d6a60abbadbbf410a7ff2804cca7e0931cb7ca749a8ec2a9"
+    },
+    {
+      "file": "n-fall_Waterfalls.png",
+      "source": "https://stardewmapeditor.kya.app.br/stardew-vanilla/fall_Waterfalls.png",
+      "sourceSha256": "96d7d2eeb964bdb9e54f08eaf3d7b4a1cc40dac020ef34b4dbf8eb8ab5d91ef7",
+      "losslessPixels": true,
+      "rgbaSha256": "e06e3b75146625d0922fa48dc0324c509b02dbb2e849a4eeb044995ed63fa29f",
+      "width": 576,
+      "height": 400,
+      "sha256": "34ef20df6fea97cc1718a267acf7c7f1f64c61bbf54c255b2a77853db62a8309"
+    },
+    {
+      "file": "n-fall_beach.png",
+      "source": "https://stardewmapeditor.kya.app.br/stardew-vanilla/fall_beach.png",
+      "sourceSha256": "1da03f35de8113eac03748c50d3bdd9a95607a7fc495529c61e89b1b49f3c89b",
+      "losslessPixels": true,
+      "rgbaSha256": "8499f52191399312fd1a6c1584a8feef5c49ebda8b7a660dbe74a52bec386eac",
+      "width": 272,
+      "height": 496,
+      "sha256": "2b98d0fc8015643e3bd2f86aafd550c7004dac8f82a193de992b6efde903cbe9"
+    },
+    {
+      "file": "n-fall_outdoorsTileSheet.png",
+      "source": "https://stardewmapeditor.kya.app.br/stardew-vanilla/fall_outdoorsTileSheet.png",
+      "sourceSha256": "4f3067ec3941d278918f6f1d3be9a43cb68ad56bbc0660c5cbf8da35865ff922",
+      "losslessPixels": true,
+      "rgbaSha256": "8601c6ff0b23c05d714f06f65042ec1a8d775394af7c92acb6a3e8ada8db0240",
+      "width": 400,
+      "height": 1264,
+      "sha256": "9c9be72a241b69d8be02e0c9bc729dd9434b1d6209a6622509fb45b8924af1f7"
+    },
+    {
+      "file": "n-fall_outdoorsTileSheet2.png",
+      "source": "https://stardewmapeditor.kya.app.br/stardew-vanilla/fall_outdoorsTileSheet2.png",
+      "sourceSha256": "22505232afc7236f5c25236c3e91763e51acc45ee565a166cadbe285e3e018af",
+      "losslessPixels": true,
+      "rgbaSha256": "e78b30d1c43f18c00fc71b4875d128ba184554ea37497ee730405356389b6693",
+      "width": 256,
+      "height": 1120,
+      "sha256": "f58e5a12ce1db9c8bb8dc37b1073edbd51f10b3349ea7d47d0414448fbfb8912"
+    },
+    {
+      "file": "n-fall_town.png",
+      "source": "https://stardewmapeditor.kya.app.br/stardew-vanilla/fall_town.png",
+      "sourceSha256": "5768348e0cb7d1157cd8cb5ef4fe0e7388d2ed157038c49fbe8561b9e2fe7051",
+      "losslessPixels": true,
+      "rgbaSha256": "8ae466e50ff8b54b10d484568991566ddbab992f014f2d7e6a1ab9c0c20937fe",
+      "width": 512,
+      "height": 1152,
+      "sha256": "10987444b49e613e3b33638603edde426c729058cd5bb7375601900965710bec"
+    },
+    {
+      "file": "n-farmhouse_tiles.png",
+      "source": "https://stardewmapeditor.kya.app.br/stardew-vanilla/farmhouse_tiles.png",
+      "sourceSha256": "efc86b097fb376c923f6cbbce77e22134290ffabf2eb870a598fce738c168f79",
+      "losslessPixels": true,
+      "rgbaSha256": "357ea8c02fca498a25a2b48baa91494c529a8c1ae2ee9fb05b9cbba805286677",
+      "width": 192,
+      "height": 352,
+      "sha256": "64842daefb7acb5b574dd814e1ecf6309a3ea850196b656aa862e33e50f60be1"
+    },
+    {
+      "file": "n-island_tilesheet_1.png",
+      "source": "https://stardewmapeditor.kya.app.br/stardew-vanilla/island_tilesheet_1.png",
+      "sourceSha256": "8da2f818813d7b0ab3c1eea35f2653f782feb601f6e72f3d77328441ce733b62",
+      "losslessPixels": true,
+      "rgbaSha256": "e68a47194a791e1ca9a677d9ab26dc33511ed95f8d401cebce7351a1b33cddac",
+      "width": 512,
+      "height": 1040,
+      "sha256": "1fba7b4bf629c34984324f04bbadfceec52ea8b28ced29a4c658d66308ea39cf"
+    },
+    {
+      "file": "n-island_tilesheet_2.png",
+      "source": "https://stardewmapeditor.kya.app.br/stardew-vanilla/island_tilesheet_2.png",
+      "sourceSha256": "3111afa10de0e201d1861dc79768a0c577d377e6b20af8e5263cf473e6b111b5",
+      "losslessPixels": true,
+      "rgbaSha256": "503841ae121ec1182c6d0bdd5cdeb00e2a425c43263a02ca3b7b029fdcfa643c",
+      "width": 512,
+      "height": 128,
+      "sha256": "4c5056bc59105b9da9d65b5e60bc35c9b463418afa53029f1f1a73f49b6a8aff"
+    },
+    {
+      "file": "n-paths.png",
+      "source": "https://stardewmapeditor.kya.app.br/stardew-vanilla/paths.png",
+      "sourceSha256": "e9a796b02350448cf4c53f9581e66121576af42626f6741dab299fdf994402a3",
+      "losslessPixels": true,
+      "rgbaSha256": "a6df929735942464200f27968a72f9d2876e391e59fdd19fde351a01b3d3cdb9",
+      "width": 64,
+      "height": 256,
+      "sha256": "b4f108368d8afd1f8517a6425f820d94dec1d56b4994e7199550396716114eb5"
+    },
+    {
+      "file": "n-spring_Shadows.png",
+      "source": "https://stardewmapeditor.kya.app.br/stardew-vanilla/spring_Shadows.png",
+      "sourceSha256": "e6fc8fc38ca070d599921b23a95130f9b83e6fad101d320677d265176ffd3504",
+      "losslessPixels": true,
+      "rgbaSha256": "42dab6ad651a3d3620cf7032054c92a11b3c8410e6a3aca6643bd57835123130",
+      "width": 304,
+      "height": 400,
+      "sha256": "0b316f1c1bdd5414a167a5a3f6901f7ebe79a5383d225b87a9cd72b128d8c28e"
+    },
+    {
+      "file": "n-spring_Waterfalls.png",
+      "source": "https://stardewmapeditor.kya.app.br/stardew-vanilla/spring_Waterfalls.png",
+      "sourceSha256": "530b09047fda90f2ba85c4d675cef5d0e0b8cf3e58f4ba203a8ac4ad552e92c0",
+      "losslessPixels": true,
+      "rgbaSha256": "e142ac781e1626d92b01130527c462f649f2c7cba377fcb1afbfbc52ae7ef6ca",
+      "width": 576,
+      "height": 400,
+      "sha256": "f0386d7a7594fcfadde9e26153910b171fc4664bac720bd3c43d91fdaae909b2"
+    },
+    {
+      "file": "n-spring_beach.png",
+      "source": "https://stardewmapeditor.kya.app.br/stardew-vanilla/spring_beach.png",
+      "sourceSha256": "707d448b67b5b328cf90953bd2ad43044ada272c3d1d1d2d7368ccae994cb8d5",
+      "losslessPixels": true,
+      "rgbaSha256": "0112ae0fc8416b38ed1f1b1e9a13066fa8c795e40140f97a79535c5485cfd193",
+      "width": 272,
+      "height": 496,
+      "sha256": "ed1e84269ec676900cecd5a40d769374543be8064308443b5f6cb2d1135fa349"
+    },
+    {
+      "file": "n-spring_outdoorsTileSheet.png",
+      "source": "https://stardewmapeditor.kya.app.br/stardew-vanilla/spring_outdoorsTileSheet.png",
+      "sourceSha256": "67a3efbb31e4bde04ed29c789f34994292e9b4e1dbe01c57ad27d3693d305e92",
+      "losslessPixels": true,
+      "rgbaSha256": "dd0e31848b2b040dbe7c8b29df4e1f4cf16d8849af9162757137d019c913c5e1",
+      "width": 400,
+      "height": 1264,
+      "sha256": "8192c2390d35b9a826971f19078b5c41f81df5e96018935ccc94164a07244446"
+    },
+    {
+      "file": "n-spring_outdoorsTileSheet2.png",
+      "source": "https://stardewmapeditor.kya.app.br/stardew-vanilla/spring_outdoorsTileSheet2.png",
+      "sourceSha256": "c5c5c0507bc27e74dbfffad616e98470c788949d2a00fa940bf2de23e4b3f706",
+      "losslessPixels": true,
+      "rgbaSha256": "8692dd2d60eb521c98175239dd5b80282fc11cfb9168e45c065b8c45be10d8d4",
+      "width": 256,
+      "height": 1120,
+      "sha256": "2da9b20aa84c36b0fb87f92ad4a95e05c401fa59e181c4b0ad594a3f72112343"
+    },
+    {
+      "file": "n-spring_town.png",
+      "source": "https://stardewmapeditor.kya.app.br/stardew-vanilla/spring_town.png",
+      "sourceSha256": "464d869131635b89ce2499efc471efd7f0d74a518a9158ebe358705719a525c1",
+      "losslessPixels": true,
+      "rgbaSha256": "5ec39531a979c24052228cacb694fa9c564a11e2cc45fef800803fbad1a429d3",
+      "width": 512,
+      "height": 1152,
+      "sha256": "4f280a8412e11527f412a818637d74879f10cd2699c06dcc34750dfa02baf711"
+    },
+    {
+      "file": "n-submarine_tilesheet.png",
+      "source": "https://stardewmapeditor.kya.app.br/stardew-vanilla/submarine_tilesheet.png",
+      "sourceSha256": "0d2c4df55217fab8d323e3621cefe11f25297aebf3ed356f3666923aa058fe58",
+      "losslessPixels": true,
+      "rgbaSha256": "88c5905a4274e934c8f42911c591416c2f95b235d8278c45152c9158f2465360",
+      "width": 384,
+      "height": 352,
+      "sha256": "7486a8f38c2df1a86e3302c8dc627b3bb39b6ff1a2672333a5041f92bbbb1935"
+    },
+    {
+      "file": "n-summer_Shadows.png",
+      "source": "https://stardewmapeditor.kya.app.br/stardew-vanilla/summer_Shadows.png",
+      "sourceSha256": "a7804dcab746f5de22468e1868e99bf923a8125ae73df31a6aea4f501fd3da62",
+      "losslessPixels": true,
+      "rgbaSha256": "68dafd3a891ff546a4f010936b21c3a97b3a0818faa51a0e87711f2c5a598cb0",
+      "width": 304,
+      "height": 400,
+      "sha256": "c04d940134362791321e6db26711b2290b77d9c25ac6b0119bfb3a27f4dc7c7b"
+    },
+    {
+      "file": "n-summer_Waterfalls.png",
+      "source": "https://stardewmapeditor.kya.app.br/stardew-vanilla/summer_Waterfalls.png",
+      "sourceSha256": "54f542f724dd1a6579e14c0c55c0ee3961afc66a92aa0f612eb348b6ae60752c",
+      "losslessPixels": true,
+      "rgbaSha256": "cac1bc6d286050b2335c9be55b54f12875662fd17294c5dbccb476a0778908a8",
+      "width": 576,
+      "height": 400,
+      "sha256": "8184ed2efb7b8abacf72c7297500ea7a5c60f9c204cecfc0d721be5d1a4628c1"
+    },
+    {
+      "file": "n-summer_beach.png",
+      "source": "https://stardewmapeditor.kya.app.br/stardew-vanilla/summer_beach.png",
+      "sourceSha256": "3a9f7cc1fe7d7694f752a6399dcad94ffc4f0cb2abd552b7599b96b2c923c28e",
+      "losslessPixels": true,
+      "rgbaSha256": "cd366770df1d067776bc38da9a705632ed477c2392cba600f646d48596a66e31",
+      "width": 272,
+      "height": 496,
+      "sha256": "6802cfca2b3df7c3590c932c74b9f86a1db687a7445b3021b26dea8cf8edb2a5"
+    },
+    {
+      "file": "n-summer_outdoorsTileSheet.png",
+      "source": "https://stardewmapeditor.kya.app.br/stardew-vanilla/summer_outdoorsTileSheet.png",
+      "sourceSha256": "29440027f18c8ef50f210faf6d07465272315d6d32f0e509b78ac040d6b81f76",
+      "losslessPixels": true,
+      "rgbaSha256": "462f02ec1bc45c01586696a4d1837e6869d24809a94b32db23904acc3b4bdcec",
+      "width": 400,
+      "height": 1264,
+      "sha256": "e6283ab328f8729f4dce0e360ca365c84a984dbdf1ff7ec8f0a2ce4008992903"
+    },
+    {
+      "file": "n-summer_outdoorsTileSheet2.png",
+      "source": "https://stardewmapeditor.kya.app.br/stardew-vanilla/summer_outdoorsTileSheet2.png",
+      "sourceSha256": "a523c742a08daf24171f5642a6e4849e973bcc25ccd8c45de9b476a1c86312b9",
+      "losslessPixels": true,
+      "rgbaSha256": "4ddbdc897c25b040eb6fd175a179b6016d0dadfd39611aabb9fcd68825d1db76",
+      "width": 256,
+      "height": 1120,
+      "sha256": "42efc6ae3c59bbda0fe6ddf5d44203d558955f3dbe52c68aa86bfa384b5b7f4d"
+    },
+    {
+      "file": "n-summer_town.png",
+      "source": "https://stardewmapeditor.kya.app.br/stardew-vanilla/summer_town.png",
+      "sourceSha256": "4f61fb6d2affc561c88d0518f310de14b4938d116f15d6843a4cf336a9f39b63",
+      "losslessPixels": true,
+      "rgbaSha256": "7fc88fb62127412893485d1ddfaaab1a45d6f1cd9f54ccac3f54b42e6bbc5218",
+      "width": 512,
+      "height": 1152,
+      "sha256": "1078d3084346cffb72caa6fa2b1eaaeb1a48869655d6c7756bcd3e2890d62a00"
+    },
+    {
+      "file": "n-townInterior.png",
+      "source": "https://stardewmapeditor.kya.app.br/stardew-vanilla/townInterior.png",
+      "sourceSha256": "d440a649cdc3b82d1329884e258fcff628ca91e9d98220d033d677011883dc05",
+      "losslessPixels": true,
+      "rgbaSha256": "66834da66e17a13988f8f17b8433d42350562cd2f2f4b58b3fe029fd9485057b",
+      "width": 512,
+      "height": 1088,
+      "sha256": "b22345cddda60f639475acce9bb6755dc664856fa5f0e33d79773eb67e7f818c"
+    },
+    {
+      "file": "n-walls_and_floors.png",
+      "source": "https://stardewmapeditor.kya.app.br/stardew-vanilla/walls_and_floors.png",
+      "sourceSha256": "cc0bfdfbeb4dd9fffdd4f7365457e350abcc7dcbbca946a65f6ad78106a664ae",
+      "losslessPixels": true,
+      "rgbaSha256": "79c11157e1ff28bc4944bde3f16ce73f866531c7e0b14329b4fba3872195c74a",
+      "width": 256,
+      "height": 688,
+      "sha256": "fbbabdfed50de22b5b8e66ee75a5e39928cebd73d59ba08c125b03a2b98b057f"
+    },
+    {
+      "file": "n-winter_beach.png",
+      "source": "https://stardewmapeditor.kya.app.br/stardew-vanilla/winter_beach.png",
+      "sourceSha256": "a9031dfa5b8a8239914ee91b84df39e577f4d7bf6acb3487b7ef66aa6c985354",
+      "losslessPixels": true,
+      "rgbaSha256": "f9652126f03cfcf332d325310b2f65eb3f5b4366d8230bad75b5045c32a466cc",
+      "width": 272,
+      "height": 496,
+      "sha256": "7003d03e36496e462c55cd4fa0d59e1d1d6a5d6199b1810f6cb4df858feac116"
+    },
+    {
+      "file": "n-winter_outdoorsTileSheet.png",
+      "source": "https://stardewmapeditor.kya.app.br/stardew-vanilla/winter_outdoorsTileSheet.png",
+      "sourceSha256": "282ff1a7896df287ecb580060d94f1be8e05f6f928917d5ef3297f035dbb0e1e",
+      "losslessPixels": true,
+      "rgbaSha256": "d5a4ebedec7205a39a06dfc5de3ff7863896de111d2d61105515c7e97af54192",
+      "width": 400,
+      "height": 1264,
+      "sha256": "d688511a451ce60355a03f7a8e936ab1e9d64b5b23e73adb68ff97d7e0c08c09"
+    },
+    {
+      "file": "n-winter_outdoorsTileSheet2.png",
+      "source": "https://stardewmapeditor.kya.app.br/stardew-vanilla/winter_outdoorsTileSheet2.png",
+      "sourceSha256": "5966d67a2c175259a36491f0288b2a1b6b5426cf934a2f259f3d5d6b1c80186e",
+      "losslessPixels": true,
+      "rgbaSha256": "bdd0ba7868072ae4ba36158d8f8a84c3dd0be9ea0abd883972627b89e5c314e1",
+      "width": 256,
+      "height": 1120,
+      "sha256": "a9a9751103150951c7957d95ca06607e2284b3387d15435b7676e9db4ef6d9af"
+    },
+    {
+      "file": "n-winter_town.png",
+      "source": "https://www.spriters-resource.com/pc_computer/stardewvalley/asset/88664/",
+      "sourceSha256": "1782182002565283b0c71b46461bace11814af1bc3cf7ccfa541207796b3ee72",
+      "losslessPixels": true,
+      "rgbaSha256": "e5821ea88b979df23561fd162b09c0d612036071ff9bcd10b0ef7f040e66c070",
+      "width": 512,
+      "height": 1152,
+      "sha256": "926b3a936e9f3840e5464edb852ef2fcf8c4b97b533bb756377c772e750459c3"
+    },
+    {
+      "file": "n-witchSwampTiles.png",
+      "source": "https://www.spriters-resource.com/pc_computer/stardewvalley/asset/83961/",
+      "sourceSha256": "9ef5cc410afc9a059f786607065dacad58c2c6e427a8bfd732391bc06b75dc4d",
+      "losslessPixels": true,
+      "rgbaSha256": "dea04d250a1d6e59b3f180b0879c229f14696b6672599611885cdc463554418c",
+      "width": 128,
+      "height": 256,
+      "sha256": "14ef755f79ddb592770c9db4e08f188cd2f0f45faeb67a00f9c2f7cab5eb2a41"
+    }
+  ],
+  "version": "0.17",
+  "maps": {
+    "source": "https://stardewmapeditor.kya.app.br/",
+    "windowSizeTiles": [
+      30,
+      18
+    ],
+    "waters": 19,
+    "views": 24,
+    "nativeHomeLayouts": 3,
+    "verifiedSourceTiles": 75060,
+    "layoutAuditChecks": 59,
+    "windows": [
+      {
+        "pool": 0,
+        "spot": "旧木栈桥",
+        "map": "Forest",
+        "source": [
+          34,
+          25
+        ],
+        "origin": [
+          21,
+          20
+        ],
+        "fullCast": [
+          34,
+          31,
+          5
+        ],
+        "sourceSha256": "639d7d3f9cbcd8da3846ff73e09ae646911800fdd65a079c643032ccd554d79b"
+      },
+      {
+        "pool": 1,
+        "spot": "西岸",
+        "map": "Forest",
+        "source": [
+          20,
+          74
+        ],
+        "origin": [
+          11,
+          66
+        ],
+        "fullCast": [
+          27,
+          74,
+          5
+        ],
+        "sourceSha256": "639d7d3f9cbcd8da3846ff73e09ae646911800fdd65a079c643032ccd554d79b"
+      },
+      {
+        "pool": 1,
+        "spot": "箭形岛南端",
+        "map": "Forest",
+        "source": [
+          58,
+          87
+        ],
+        "origin": [
+          45,
+          82
+        ],
+        "fullCast": [
+          58,
+          93,
+          5
+        ],
+        "sourceSha256": "639d7d3f9cbcd8da3846ff73e09ae646911800fdd65a079c643032ccd554d79b"
+      },
+      {
+        "pool": 2,
+        "spot": "威利码头",
+        "map": "Beach",
+        "source": [
+          33,
+          35
+        ],
+        "origin": [
+          20,
+          30
+        ],
+        "fullCast": [
+          33,
+          41,
+          5
+        ],
+        "sourceSha256": "ae28e8ec62fb323ebd40d8a95ffb6ab9dcb0c7b2b44c41ad528236bafa2c206e"
+      },
+      {
+        "pool": 2,
+        "spot": "东侧码头",
+        "map": "Beach",
+        "source": [
+          87,
+          40
+        ],
+        "origin": [
+          74,
+          32
+        ],
+        "fullCast": [
+          87,
+          46,
+          5
+        ],
+        "sourceSha256": "ae28e8ec62fb323ebd40d8a95ffb6ab9dcb0c7b2b44c41ad528236bafa2c206e"
+      },
+      {
+        "pool": 3,
+        "spot": "西侧湖岸",
+        "map": "Mountain",
+        "source": [
+          47,
+          27
+        ],
+        "origin": [
+          38,
+          19
+        ],
+        "fullCast": [
+          54,
+          27,
+          2
+        ],
+        "sourceSha256": "c9eb9af6f8b99e0a543c0e303602c4e5bae632d850faf93040c3ef4dcb7045f3"
+      },
+      {
+        "pool": 3,
+        "spot": "湖心岛",
+        "map": "Mountain",
+        "source": [
+          59,
+          22
+        ],
+        "origin": [
+          50,
+          17
+        ],
+        "fullCast": [
+          66,
+          29,
+          5
+        ],
+        "sourceSha256": "c9eb9af6f8b99e0a543c0e303602c4e5bae632d850faf93040c3ef4dcb7045f3"
+      },
+      {
+        "pool": 4,
+        "spot": "石桥下游",
+        "map": "Town",
+        "source": [
+          69,
+          59
+        ],
+        "origin": [
+          60,
+          51
+        ],
+        "fullCast": [
+          76,
+          59,
+          1
+        ],
+        "sourceSha256": "a204b352012f61ee03cf6eb5313095dbba9dc8583b6c2fb663107efb3dd9f419"
+      },
+      {
+        "pool": 4,
+        "spot": "北部木桥",
+        "map": "Town",
+        "source": [
+          94,
+          13
+        ],
+        "origin": [
+          81,
+          1
+        ],
+        "fullCast": [
+          94,
+          7,
+          2
+        ],
+        "sourceSha256": "a204b352012f61ee03cf6eb5313095dbba9dc8583b6c2fb663107efb3dd9f419"
+      },
+      {
+        "pool": 5,
+        "spot": "古树池边",
+        "map": "Woods",
+        "source": [
+          9,
+          18
+        ],
+        "origin": [
+          0,
+          13
+        ],
+        "fullCast": [
+          9,
+          24,
+          2
+        ],
+        "sourceSha256": "23e11f1820feec9c37836a3c8e8820c318ae1d59a43f49b927be55d124f1853a"
+      },
+      {
+        "pool": 6,
+        "spot": "铜矿岩台",
+        "map": "Mines/20",
+        "source": [
+          34,
+          6
+        ],
+        "origin": [
+          20,
+          1
+        ],
+        "fullCast": [
+          34,
+          12,
+          5
+        ],
+        "sourceSha256": "9b323b6d3ac44b518c81fb024d01faaed721f552cd429fdd007a7ffc1b226f9e"
+      },
+      {
+        "pool": 7,
+        "spot": "冰晶岩台",
+        "map": "Mines/20",
+        "source": [
+          34,
+          6
+        ],
+        "origin": [
+          20,
+          1
+        ],
+        "fullCast": [
+          34,
+          12,
+          5
+        ],
+        "sourceSha256": "9b323b6d3ac44b518c81fb024d01faaed721f552cd429fdd007a7ffc1b226f9e"
+      },
+      {
+        "pool": 8,
+        "spot": "岩浆边缘",
+        "map": "Mines/20",
+        "source": [
+          34,
+          6
+        ],
+        "origin": [
+          20,
+          1
+        ],
+        "fullCast": [
+          34,
+          12,
+          5
+        ],
+        "sourceSha256": "9b323b6d3ac44b518c81fb024d01faaed721f552cd429fdd007a7ffc1b226f9e"
+      },
+      {
+        "pool": 9,
+        "spot": "椰树岸",
+        "map": "Desert",
+        "source": [
+          14,
+          15
+        ],
+        "origin": [
+          0,
+          7
+        ],
+        "fullCast": [
+          7,
+          15,
+          1
+        ],
+        "sourceSha256": "b3c7690ef1d54f6d740fbafd46026d9018bc93ab3e5ddb93a36ba14befa2d97b"
+      },
+      {
+        "pool": 10,
+        "spot": "排水渠边",
+        "map": "Sewer",
+        "source": [
+          17,
+          28
+        ],
+        "origin": [
+          8,
+          20
+        ],
+        "fullCast": [
+          24,
+          28,
+          5
+        ],
+        "sourceSha256": "fd1da559886ad6e04c23d1f4b062785fe79bf1c8dbcb72621935f5a1d1a93a33"
+      },
+      {
+        "pool": 11,
+        "spot": "菌落浅滩",
+        "map": "BugLand",
+        "source": [
+          25,
+          17
+        ],
+        "origin": [
+          16,
+          9
+        ],
+        "fullCast": [
+          32,
+          17,
+          1
+        ],
+        "sourceSha256": "072018ea335f28f20a9423c2fec108986ec53c68df6266eb8010758e64966b94"
+      },
+      {
+        "pool": 12,
+        "spot": "枯木岸",
+        "map": "WitchSwamp",
+        "source": [
+          21,
+          25
+        ],
+        "origin": [
+          10,
+          17
+        ],
+        "fullCast": [
+          28,
+          25,
+          5
+        ],
+        "sourceSha256": "f8e9ef79d217ab60000681da31f44334b8348a8f96eed6b85be8c54970fa6b79"
+      },
+      {
+        "pool": 13,
+        "spot": "椰林码头",
+        "map": "Island_S",
+        "source": [
+          21,
+          44
+        ],
+        "origin": [
+          8,
+          39
+        ],
+        "fullCast": [
+          21,
+          50,
+          5
+        ],
+        "sourceSha256": "6441120bfd6124be7b29f0f607b41d7d8c706a60ed89b8a102f44542b54a0633"
+      },
+      {
+        "pool": 14,
+        "spot": "竹林河岸",
+        "map": "Island_N",
+        "source": [
+          18,
+          45
+        ],
+        "origin": [
+          0,
+          37
+        ],
+        "fullCast": [
+          13,
+          45,
+          1
+        ],
+        "sourceSha256": "3593801791cdc70139690ba53a02c32579b2948cea5e11adedc0d164521b6e5c"
+      },
+      {
+        "pool": 15,
+        "spot": "洞窟西岸",
+        "map": "IslandSouthEastCave",
+        "source": [
+          21,
+          27
+        ],
+        "origin": [
+          10,
+          19
+        ],
+        "fullCast": [
+          28,
+          27,
+          5
+        ],
+        "sourceSha256": "8b62f8b76c6dabb7ef4d1972b770c27e39884d6bec49804e51d70951c2438c0b"
+      },
+      {
+        "pool": 16,
+        "spot": "熔岩岛屿",
+        "map": "Caldera",
+        "source": [
+          24,
+          29
+        ],
+        "origin": [
+          15,
+          21
+        ],
+        "fullCast": [
+          31,
+          29,
+          3
+        ],
+        "sourceSha256": "3b5e80aa233403f950f7348bc24a75cad57dba608a55a2fc688dbf0873b35191"
+      },
+      {
+        "pool": 17,
+        "spot": "上游河岸",
+        "map": "Forest",
+        "source": [
+          50,
+          94
+        ],
+        "origin": [
+          41,
+          86
+        ],
+        "fullCast": [
+          57,
+          94,
+          5
+        ],
+        "sourceSha256": "639d7d3f9cbcd8da3846ff73e09ae646911800fdd65a079c643032ccd554d79b"
+      },
+      {
+        "pool": 17,
+        "spot": "瀑布下潭",
+        "map": "Forest",
+        "source": [
+          52,
+          98
+        ],
+        "origin": [
+          43,
+          93
+        ],
+        "fullCast": [
+          58,
+          104,
+          0
+        ],
+        "sourceSha256": "639d7d3f9cbcd8da3846ff73e09ae646911800fdd65a079c643032ccd554d79b"
+      },
+      {
+        "pool": 18,
+        "spot": "潜艇垂钓舱",
+        "map": "Submarine",
+        "source": [
+          7,
+          10
+        ],
+        "origin": [
+          -2,
+          0
+        ],
+        "fullCast": [
+          14,
+          10,
+          1
+        ],
+        "sourceSha256": "c2f29374e3e378e492782bad5e1e058d710065be749748f968fe7114599027e3"
+      }
+    ],
+    "homeMaps": [
+      {
+        "name": "FarmHouse",
+        "source": "https://stardewmapeditor.kya.app.br/stardew-vanilla/FarmHouse.tmx",
+        "sha256": "05fb8ba6d50978cf0adaaa74b253fc61df7869e2cb1fbd4f5cbb503222633a8c"
+      },
+      {
+        "name": "FarmHouse1",
+        "source": "https://stardewmapeditor.kya.app.br/stardew-vanilla/FarmHouse1.tmx",
+        "sha256": "12a46f2a44ebbe15f0770d3473da80a66f4a5c4e496265fe80dd229e488b1012"
+      },
+      {
+        "name": "FarmHouse2",
+        "source": "https://stardewmapeditor.kya.app.br/stardew-vanilla/FarmHouse2.tmx",
+        "sha256": "1a55436d92cc8b9357f33994220f2c59d0e6eb42e9a6289553a92213c71cebcb"
+      }
+    ]
+  },
+  "fontSubset": {
+    "name": "ValleyPixel",
+    "file": "pixel.woff2",
+    "sha256": "1bb0e153d28539735bf1c2df38ecdb8dc9193408be9452db5dc76f20602e299c",
+    "original": "https://github.com/TakWolf/fusion-pixel-font",
+    "license": "SIL Open Font License 1.1",
+    "modified": true
+  }
+}

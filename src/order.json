@@ -1,0 +1,90 @@
+[
+  {
+    "file": "touch-ui.js",
+    "header": ""
+  },
+  {
+    "file": "compat.js",
+    "header": "/* compat.js */\n"
+  },
+  {
+    "file": "platform.js",
+    "header": "/* platform.js */\n"
+  },
+  {
+    "file": "fish-data.js",
+    "header": "/* fish-data.js */\n"
+  },
+  {
+    "file": "art.js",
+    "header": "/* art.js */\n"
+  },
+  {
+    "file": "native-map-data.js",
+    "header": "/* native-map-data.js */\n"
+  },
+  {
+    "file": "native-maps.js",
+    "header": "/* native-maps.js */\n"
+  },
+  {
+    "file": "equipment.js",
+    "header": "/* equipment.js */\n"
+  },
+  {
+    "file": "day-cycle.js",
+    "header": "/* day-cycle.js */\n"
+  },
+  {
+    "file": "world-maps.js",
+    "header": "/* world-maps.js */\n"
+  },
+  {
+    "file": "fishing-rules.js",
+    "header": "/* fishing-rules.js */\n"
+  },
+  {
+    "file": "mechanics.js",
+    "header": "/* mechanics.js */\n"
+  },
+  {
+    "file": "selection-data.js",
+    "header": "/* selection-data.js */\n"
+  },
+  {
+    "file": "catch-selection.js",
+    "header": "/* catch-selection.js */\n"
+  },
+  {
+    "file": "audio-data.js",
+    "header": "/* audio-data.js */\n"
+  },
+  {
+    "file": "music.js",
+    "header": "/* music.js */\n"
+  },
+  {
+    "file": "music-catalog.js",
+    "header": "/* music-catalog.js */\n"
+  },
+  {
+    "file": "music-assets.js",
+    "header": "/* music-assets.js */\n"
+  },
+  {
+    "file": "audio.js",
+    "header": "/* audio.js */\n"
+  },
+  {
+    "file": "presentation.js",
+    "header": "/* presentation.js */\n"
+  },
+  {
+    "file": "touch-controls.js",
+    "header": "/* touch-controls.js */\n"
+  },
+  {
+    "file": "app.js",
+    "header": "/* app.js */\n"
+  }
+]

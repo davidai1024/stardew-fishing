@@ -1,0 +1,35 @@
+/* Original pixel animation poses, ballistic bobber, water effects. No external assets. */
+(function(){'use strict';
+var C={windup:.12,launch:.32,land:.98,duration:1.12,hook:.34};
+function clamp(n,a,b){return Math.max(a,Math.min(b,n));}function ease(n){n=clamp(n,0,1);return n*n*(3-2*n);}function mix(a,b,t){return a+(b-a)*t;}
+function px(c,x,y,w,h,color){c.fillStyle=color;c.fillRect(Math.round(x),Math.round(y),Math.round(w),Math.round(h));}
+function line(c,a,b,w,color){var steps=Math.max(1,Math.ceil(Math.max(Math.abs(b.x-a.x),Math.abs(b.y-a.y))/2));for(var i=0;i<=steps;i++)px(c,mix(a.x,b.x,i/steps)-w/2,mix(a.y,b.y,i/steps)-w/2,w,w,color);}
+function pose(phase,age,power,stand,facing){facing=facing===undefined?7:facing;var a=facing*Math.PI/4,dx=Math.cos(a),dy=Math.sin(a),lean=0,swing=1,reach=78,loft=42,bend=0;
+if(phase==='charging'){swing=0;reach=55+power*22;loft=74+power*14;lean=-2-power*3;bend=-6-power*7;}
+if(phase==='casting'){swing=ease((age-C.windup)/(C.launch-C.windup));reach=mix(77,94,swing);loft=mix(88,38,swing);lean=mix(-5,6,swing);bend=-Math.sin(swing*Math.PI)*17;if(age>C.land){var recovery=ease((age-C.land)/(C.duration-C.land));reach=mix(94,78,recovery);loft=mix(38,42,recovery);lean=mix(6,0,recovery);}}
+if(phase==='hooking'){var yank=Math.sin(clamp(age/C.hook,0,1)*Math.PI*.8);reach=78-yank*38;loft=42+yank*58;lean=-yank*5;bend=yank*10;}
+var hand={x:256+dx*(17+lean),y:219-stand*9+dy*10},forward=phase==='charging'?-1:phase==='casting'?mix(-1,1,swing):1,tip={x:hand.x+dx*reach*forward,y:hand.y+dy*reach*forward-loft};return {phase:phase,age:age,lean:lean,leanX:dx*lean,leanY:dy*lean*.5,stand:stand,hand:hand,tip:tip,angle:Math.atan2(tip.y-hand.y,tip.x-hand.x),bend:bend,facing:facing};}
+function flight(age,power,endpoint,facing){var start=pose('casting',C.launch,power,1,facing).tip,end=endpoint||{x:420+power*190,y:326+power*65},q=clamp((age-C.launch)/(C.land-C.launch),0,1);return {x:mix(start.x,end.x,q),y:mix(start.y,end.y,q)-Math.sin(Math.PI*q)*(92+power*55),progress:q};}
+/* Eight views share a consistent 16×32 silhouette; face, hair, torso and arms vary by direction. */
+function drawAngler(c,p){if(window.ReedArt&&window.ReedArt.farmer(c,p)){var shoulder={x:256+Math.cos(p.facing*Math.PI/4)*9+(p.leanX||0),y:218-15*p.stand+(p.leanY||0)};line(c,shoulder,p.hand,4,'#e7ad83');return;}var dir=p.facing===undefined?7:p.facing,left=dir===3||dir===4||dir===5,back=dir===5||dir===6||dir===7,side=dir===0||dir===4,diagonal=dir%2===1,x=Math.round(240+(p.leanX||0)),y=Math.round(186-15*p.stand+(p.leanY||0));c.save();c.translate(x,y);if(left){c.translate(32,0);c.scale(-1,1);}var skin='#f2b785',light='#ffd59b',hair='#704128',shirt='#4b9b9c',blue='#3f6193',dark='#273e68';
+// Boots and articulated trouser legs.
+px(c,8,45,7,13,blue);px(c,19,45,6,13,dark);px(c,9,47,3,9,'#6685ad');px(c,7,58,9,4,'#573c2c');px(c,19,58,9,4,'#3f322a');px(c,6,61,11,2,'#302b29');px(c,18,61,11,2,'#302b29');
+// Shirt and overalls. Back seams differ from the front bib.
+px(c,7,28,19,15,shirt);px(c,5,31,23,8,'#357d88');px(c,9,39,16,8,blue);px(c,9,29,3,16,back?'#486a91':'#668bb3');px(c,21,29,3,16,dark);if(!back){px(c,12,35,9,8,'#6381ad');px(c,10,34,2,2,'#e8bc5d');px(c,21,34,2,2,'#e8bc5d');}else{px(c,11,35,12,2,'#34517b');px(c,16,30,2,13,'#395b83');}
+// Head / hair / face: front, profile and rear three-quarter views.
+px(c,8,13,17,14,hair);if(back){px(c,8,15,17,11,hair);px(c,11,18,12,9,'#875234');if(diagonal){px(c,24,16,4,9,skin);px(c,26,19,2,2,'#393429');}px(c,13,25,8,4,skin);}else if(side){px(c,17,14,10,13,skin);px(c,25,18,4,5,skin);px(c,17,15,4,4,hair);px(c,24,18,2,2,'#31333a');px(c,20,25,5,2,'#ce8e66');}else{px(c,10,14,15,14,skin);px(c,11,15,10,3,light);px(c,9,14,3,12,hair);if(diagonal){px(c,20,18,2,2,'#31333a');px(c,25,20,3,3,skin);px(c,15,18,2,2,'#31333a');}else{px(c,13,19,2,2,'#31333a');px(c,22,19,2,2,'#31333a');}px(c,17,24,4,1,'#c88664');px(c,14,27,8,3,skin);}
+// Straw hat. The rear band and profile brim make turning readable at phone scale.
+px(c,7,5,18,9,'#b87a32');px(c,9,1,14,5,'#dba344');px(c,11,0,10,2,'#f8cc70');px(c,8,5,16,5,'#edbc59');px(c,6,10,21,4,back?'#a66b2d':'#9f622a');px(c,2,13,28,3,'#e3aa48');px(c,5,12,23,2,'#ffcf70');if(side){px(c,22,14,10,2,'#bc8133');}if(back){px(c,10,11,12,2,'#764529');}
+px(c,5,34,5,10,shirt);px(c,7,43,4,6,skin);c.restore();
+// The active arm follows the actual oriented hand in world space.
+var shoulder={x:256+Math.cos(dir*Math.PI/4)*9+(p.leanX||0),y:218-15*p.stand+(p.leanY||0)},elbow={x:mix(shoulder.x,p.hand.x,.55),y:mix(shoulder.y,p.hand.y,.55)+4};line(c,shoulder,elbow,6,shirt);line(c,elbow,p.hand,4,skin);px(c,p.hand.x-2,p.hand.y-2,4,4,light);}
+function drawRod(c,p,color){var middle={x:mix(p.hand.x,p.tip.x,.60)+p.bend,y:mix(p.hand.y,p.tip.y,.60)-p.bend*.25};var prev=p.hand;for(var i=1;i<=24;i++){var q=i/24,r=1-q,next={x:r*r*p.hand.x+2*r*q*middle.x+q*q*p.tip.x,y:r*r*p.hand.y+2*r*q*middle.y+q*q*p.tip.y};line(c,prev,next,2,color);prev=next;}line(c,p.hand,{x:mix(p.hand.x,p.tip.x,.17),y:mix(p.hand.y,p.tip.y,.17)},5,'#8b704c');px(c,p.hand.x+4,p.hand.y+1,6,6,'#b7b7a0');}
+function drawLine(c,p,to,slack){c.strokeStyle='#f1edd5b3';c.lineWidth=1;c.beginPath();c.moveTo(p.tip.x,p.tip.y);c.quadraticCurveTo(mix(p.tip.x,to.x,.5),mix(p.tip.y,to.y,.5)+(slack||0),to.x,to.y);c.stroke();}
+function ring(c,x,y,r,alpha){if(alpha<=0)return;c.strokeStyle='rgba(220,246,221,'+clamp(alpha,0,1)+')';c.lineWidth=2;c.beginPath();c.ellipse(x,y,r,r*.29,0,0,Math.PI*2);c.stroke();}
+function drawBobber(c,x,y,submerged){if(window.ReedArt&&window.ReedArt.patch(c,'bobbers',0,0,16,16,x-12,y-20,24,24))return;px(c,x-1,y-14,2,6,'#514e3a');px(c,x-3,y-9,6,6,'#f6e7bc');px(c,x-3,y-3,6,6,submerged?'#b77a61':'#d27759');px(c,x-1,y+3,2,5,'#e4d2a0');px(c,x-1,y-8,2,3,'#fff7d9');}
+function drawSplash(c,e){var dur=e.type==='bite' ? .7:.9,u=e.age/dur;if(u<0||u>1.7)return;var k=e.type==='hook'?1.25:e.type==='bite' ? .8:1;ring(c,e.x,e.y,8+u*40,.7*(1-u*.65));if(u>.15)ring(c,e.x,e.y,4+(u-.15)*29,.55*(1-u*.65));if(u>1)return;for(var i=0;i<14;i++){var a=(i/14)*Math.PI*2,v=22+(i*17%31),x=e.x+Math.cos(a)*v*e.age*k,y=e.y- (30+(i*13%55))*e.age*k+105*e.age*e.age;var alpha=1-u;px(c,x,y,2+i%3,3+i%2,'rgba(225,247,229,'+alpha+')');}}
+function drawBite(c,x,y,age){var A=window.ReedArt;if(A){var size=Math.max(1,2.5-age*.3),shake=Math.sin(age*40)*Math.max(0,.5-age*.15);if(A.patch(c,'n:Cursors',395,497,3,8,x-size*1.5+shake,y-68-age*15,3*size,8*size))return;}var pop=clamp(age/.14,0,1),scale=1+Math.sin(clamp(age/.3,0,1)*Math.PI)*.22;var lift=(1-pop)*12;c.save();c.translate(x,y-82-lift);c.scale(scale,scale);c.globalAlpha=pop;px(c,-17,-25,34,44,'#614d34');px(c,-14,-22,28,38,'#ffe5a2');px(c,-10,-20,20,4,'#fff0c4');px(c,-3,-16,7,19,'#72512e');px(c,-3,7,7,6,'#72512e');px(c,-3,19,6,5,'#ffe5a2');c.restore();if(age<.5){ring(c,x,y,14+age*42,.8-age);px(c,x-15,y-4,4,3,'#edf7d7');px(c,x+13,y-6,3,4,'#edf7d7');}}
+window.ReedMotion={timing:C,pose:pose,flight:flight,drawAngler:drawAngler,drawRod:drawRod,drawLine:drawLine,drawBobber:drawBobber,drawSplash:drawSplash,drawBite:drawBite,ring:ring};
+})();
+
+;
